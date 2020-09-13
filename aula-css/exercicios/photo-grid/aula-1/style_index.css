@@ -1,0 +1,81 @@
+body {
+    background: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+a[href*="details"] {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile img {
+    border-radius: 600px;
+    width: 100px;
+}
+.profile h1 {
+    font-size: 24px;
+}
+.profile p {
+    font-size: 10px;
+}
+
+.card {
+    width: 300px;
+    background: #FFF;
+    padding: 6px;
+    margin: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card h2 {
+    font-size: 16px;
+}
+.card img {
+    max-height: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    background: #F5F5F5;
+    
+}
+footer {
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+    .profile img {
+        border-radius: 600px;
+        width: 150px;
+    }
+    .profile h1 {
+        font-size: 32px;
+    }
+    .profile p {
+        font-size: 16px;
+    }    
+    .card {
+        width: 350px;
+        background: #FFF;
+        padding: 10px;
+        margin: 10px;
+    }
+    .card h2 {
+        font-size: 20px;
+    }
+    .card img {
+        max-height: 350px;
+        max-width: 350px;
+        width: auto;
+        height: auto;
+    }
+    footer {
+        font-size: 16px;
+    }
+    
+}
+
+.card img{
+    width: 100%;
+}
